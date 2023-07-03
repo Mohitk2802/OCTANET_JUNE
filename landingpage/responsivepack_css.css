@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    color: black;
+    padding: 0px;
+    transition: all .5s;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 4vmax;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(244, 241, 241, 0.961);
+    z-index: 10000;
+    position: sticky;
+    top: 0px;
+}
+#one,#two,#th{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items:center;
+}
+#im,#im2{
+    width: 2.5vmax;
+}
+#one{
+    font-size: 2.4vmax;
+    font-family: 'Acme', sans-serif; 
+    width: 8vmax;
+    color: #A52A2A;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+#one:hover
+{
+    font-size: 2.9vmax;
+    transition: all 0.4s;
+}
+#two{
+    width: 40vmax;
+    align-self: stretch;
+    
+}
+#two>a{
+    text-decoration: none;
+    font-size: large;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    width: 8vmax;
+    justify-content: center;
+    transition: all 0.3s;
+}
+#two>a:hover{
+    border-bottom: 3px solid #A52A2A;
+    transition: all 0.2s;
+}
+#th{
+    width: 10vmax;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#th>img:hover{
+    border-radius: 1vmax;
+    box-shadow: 0 0 8px black;
+    transition: all 0.2s;
+}
+
+/*-----------------------------------------------*/
+
+#sec1{
+    height: 90vh;
+    background-image: radial-gradient(#FF7F50,#FFA07A);
+    display: flex;
+    max-width: 100vw;
+}
+#mos1,#mos2{
+    
+    width: 50vmax;
+    display: flex;
+}
+#mos2>img{
+    max-width: 45vmax;
+    filter: drop-shadow(0 0 10px black);
+    transition:all .5s;
+}
+#mos2>img:hover{
+    transform: translateY(-10px);
+    transition:all .5s;
+}
+#mos2{
+    justify-content: flex-end;
+    align-items: center;
+}
+#mos1{
+    flex-direction: column;
+    align-items: center;
+}
+#mos1>#h1{
+    font-size: 5.5vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 9vmax;
+}
+#mos1>#h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.4vmax;
+}
+#mos1>#h3{
+    font-size: 1.3vmax;
+    font-style: italic;
+    margin-top: 2vmax;
+}
+#mos1>button{
+    width: 10vmax;
+    font-size: 1.3vmax;
+    border-radius: .7vmax;
+    background-color: rgba(23, 22, 22, 0.89);
+    color: rgba(245, 240, 240, 0.954);
+    padding: .4vmax;
+    box-shadow: 0 0 5px black;
+    border: none;
+    margin: 2vmax 0vmax;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .5s;
+    cursor: pointer;
+}
+#mos1>button:hover{
+    box-shadow: 0 0 10px black;
+    width: 11vmax;
+    transition: all .5s;
+}
+
+/*------------------------------------------------*/
+
+#sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+#mos3{
+    margin: 2vmax 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5vmax;
+    border-bottom: 2.5px solid #A52A2A;
+    width: 18vmax;
+    text-align: center;
+    padding-bottom: 2vmax;
+}
+#mos4{
+    display: flex;
+    max-width: 60vmax;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#mos4>div>img{
+    width: 18vmax;
+    border-radius: .4vmax;
+}
+
+#mos4>div{
+    margin-bottom: 2vmax;
+    width: 18vmax;
+    text-align: center;
+    font-family: Maiandra GD; 
+    font-size: 1.5vmax;
+    transition: all .5s;
+}
+#mos4>.img>h4{
+    margin-top: .5vmax;
+}
+#mos4>div:hover{
+    transform: translateY(-10px);
+    transition: all .5s;
+    
+}
