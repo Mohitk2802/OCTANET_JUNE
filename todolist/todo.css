@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    transition: all 0.5s;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vmax;
+    font-weight: bold;
+    color: rgba(132, 158, 169, 0.838);
+    margin: 1vmax 0px;
+}
+#input{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+input,textarea{
+    width: 30vmax;
+    padding: .7vmax;
+    margin: .8vmax 0px;
+}
+#add{
+    padding: .5vmax;
+    border: none;
+    background-color: rgba(127, 171, 183, 0.735);
+    color: white;
+    font-weight: bold;
+}
+#add:hover{
+    background-color: rgba(92, 134, 146, 0.783);
+}
+#sec{
+    width: 88vmax;
+    margin: auto;
+    margin-top: 2vmax;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#sec>.list{
+    background-color: rgba(184, 203, 218, 0.457);
+    width: 80vmax;
+    border-radius: .65vmax;
+    margin: .8vmax 0px;
+    transition: all 0.5s;
+}
+.del{
+    border: none;
+    width: 2.5vmax;
+    font-weight: bold;
+    height: 2vmax;
+    margin: auto;
+    float: right;
+    background-color: tomato;
+    color: white;
+    border-top-left-radius: .7vmax;
+}
+.del:hover{
+    width: 3vmax ;
+}
+.list>div{
+    margin: 1vmax 2vmax;
+    color: rgb(97, 111, 123);
+}
+#one{
+    font-weight: bold;
+    color: rgb(76, 87, 96);
+}
