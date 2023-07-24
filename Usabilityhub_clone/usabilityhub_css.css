@@ -1,0 +1,403 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+#one{
+    background-image: radial-gradient(rgba(255, 192, 203, 0.934),rgb(218, 151, 164));
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 3.8vmax;
+}
+/*fr ke geghr vmax use krna tha glti ho gai*/
+nav{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1.4fr 2.3fr 1fr;  
+    margin: 1.2vmax 0px;
+}
+#img1{
+    display: flex;
+    align-items: center;
+}
+#img1>img{
+    max-width: 14vmax;
+    margin: 0px .8vmax;
+}
+#img1>div{
+    background-color: rgba(187, 216, 242, 0.457);
+    padding: .4vmax 1vmax;
+    margin: 0px .4vmax;
+    border-radius: .4vmax;
+    color: rgb(75, 73, 73);
+
+}
+#data{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#data>a{
+    margin: 0px 1.3vmax;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    transition: all .3s;
+}
+#data>a:hover{
+    color: rgb(59, 59, 253);
+    transition: all .3s;
+}
+#login{
+    display: flex;
+    align-items: center;
+}
+#login>button{
+    margin: 0px .7vmax;
+    width: 8vmax;
+    height: 3vmax;
+    border: 1.5px solid lightblue;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: .5vmax;
+    font-size: large;
+    transition: all .5s;
+    
+}
+#login>#b2{
+    background-color: rgba(78, 78, 248, 0.82);
+    color: white;
+}
+#login>#b2:hover{
+    background-color: rgb(78, 78, 248);
+    transition: all .5s;
+    cursor: pointer;
+}
+#login>#b1:hover{
+    color:  rgb(78, 78, 248);
+    border: 1.5px solid rgb(78, 78, 248);
+    transition: all .5s;
+    cursor: pointer;
+}
+/*---------------------------------------------*/
+#sec1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(40vmax,1fr));
+}
+#sec1>#s1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sec1>#s1>#heading{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3.8vmax;
+    margin: .7vmax 0px;
+    color: rgb(77, 114, 142);
+}
+#sec1>#s1>#contant{
+    max-width: 43vmax;
+    font-size: 1.6vmax;
+    margin: 1vmax 0px;
+    color: rgba(95, 128, 152, 0.938);
+}
+#sec1>#s1>button{
+    width: 13vmax;
+    height: 3.8vmax;
+    margin: 1.3vmax 0px;
+    border: 3px solid rgb(109, 182, 219);
+    font-size: large;
+    color: rgb(59, 58, 58);
+    background-color: white;
+    transition: all .5s;
+}
+#sec1>#s1>button:hover{
+    cursor: pointer;
+    width: 16vmax;
+    transition: all .5s;
+}
+#sec1>#s2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax 0px;
+}
+#sec1>#s2>img{
+    max-width: 50vmax;
+}
+/*---------------------------------------------*/
+#sec2{
+    margin: 2.5vmax 0px;
+}
+#sec2d1{
+    text-align: center;
+    font-size: 1.5vmax;
+    color: rgb(77, 114, 142);
+    margin: 1.9vmax 0px;
+}
+#sec2d2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1vmax 0px;
+}
+#sec2d2>div>img{
+    height: 3.5vmax;
+}
+#sec2d2>div{
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------------------------------*/
+#sec3{
+   margin-top: 5vmax;
+}
+#sec3d1{
+    text-align: center;
+    color: rgb(77, 114, 142);
+    font-size:xx-large;
+}
+#sec3d1>button{
+    width: 12vmax;
+    height: 3.5vmax;
+    margin-top: 1vmax;
+    border: 2.5px solid rgba(145, 180, 198, 0.888);
+    font-size: medium;
+    color: rgba(74, 72, 72, 0.932);
+    background-color: white;
+    transition: all .5s;
+    font-weight: bold;
+}
+#sec3d1>button:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 13.5vmax;
+}
+#sec3d2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3vmax 3.5vmax;
+    flex-wrap: wrap;
+}
+#sec3d2>div>div>img{
+    max-width: 3vmax ;
+    margin: .6vmax 0px;
+}
+#sec3d2>div>.heading{
+    font-size: 2.1vmax;
+    color: rgb(77, 114, 142);
+    font-weight: bold;
+    margin: .8vmax 0px;
+}
+#sec3d2>div>.contant{
+    color: rgba(95, 128, 152, 0.938);
+    margin: .8vmax 0px;
+    font-size: 1.8vmax;
+}
+#sec3d2>div>button{
+    width: 12vmax;
+    height: 3.5vmax;
+    margin: 1vmax 0px;
+    border: 2.5px solid rgba(145, 180, 198, 0.888);
+    font-size: medium;
+    color: rgba(74, 72, 72, 0.932);
+    background-color: white;
+    transition: all .5s;
+    font-weight: bold;
+    margin: .5vmax 0px;
+}
+#sec3d2>div>button:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 13.5vmax;
+}
+#sec3d2>div{
+    text-align: center;
+    max-width: 25vmax;
+    margin-bottom: 2vmax
+}
+/*-----------------------------------------------------*/
+#sec4{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(40vmax,1fr));
+    margin: 4.4vmax 0px;
+}
+#sec4d1{
+    text-align: center;
+}
+#sec4d1>img{
+    max-width: 40vmax;
+}
+#sec4d2{
+    padding: 2vmax 2vmax;
+    color: rgb(77, 114, 142);
+}
+#sec4d2>#sec4d21{
+    font-size: 1.5vmax;
+    font-weight: bold;
+    margin: .5vmax 0px;
+}
+#sec4d2>#sec4d22{
+    font-size: 2.4vmax;
+    font-weight: bold;
+    margin: .5vmax 0px;
+}
+#sec4d2>#sec4d23{
+    font-size: 1.6vmax;
+    margin: 1vmax 0px;
+}
+#sec4d2>#sec4d24>img{
+   max-width: 9vmax;
+   margin: 1vmax 0px;
+}
+#sec4d2>#sec4d25{
+    font-size: 1.4vmax;
+    font-weight: bold;
+    margin: 1vmax 0px;
+}
+#sec4d2>#sec4d26>img{
+    max-width: 4vmax;
+    margin: .8vmax 0px;
+}
+#sec4d2>#sec4d26>span{
+    font-size: 1.1vmax;
+    font-style:oblique;
+}
+/*--------------------------------------------------------*/
+#sec5d1{
+    text-align: center;
+}
+#sec5d1>div{
+    color: rgb(77, 114, 142);
+    font-size: 2.5vmax;
+    font-weight: bold;
+}
+#sec5d1>button{
+    width: 14vmax;
+    height: 3.5vmax;
+    margin: 1vmax 0px;
+    border: 2.5px solid rgba(145, 180, 198, 0.888);
+    font-size: medium;
+    color: rgba(74, 72, 72, 0.932);
+    background-color: white;
+    transition: all .5s;
+    font-weight: bold;
+    margin: .5vmax 0px;
+    transition: all 0.5s;
+}
+#sec5d1>button:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 15.5vmax;
+}
+#sec5d2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2vmax 0px;
+}
+#sec5d2>.photos{
+width: 19vmax ;
+height: 22vmax;
+background-repeat: no-repeat;
+background-size: 31vmax 23vmax;
+display: flex;
+align-items: end;
+border-radius: 6px;
+margin: 2vmax 0px;
+}
+#sec5d2>.photos:hover{
+    filter: drop-shadow(0 0 3px black);
+    transition: all 0.5s;
+}
+#sec5d2>.photos>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 1vmax;
+}
+#sec5d21{
+    background: linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.7)) , url(copy.webp);
+}
+#sec5d22{
+    background-image: linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.7)) , url(bords.jpg);
+}
+#sec5d23{
+    background-image:linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.7)) , url(peoples.webp);
+}
+#sec5d24{
+    background-image: linear-gradient(rgb(0,0,0,.4),rgb(0,0,0,.7)) , url(map.jpg);
+}
+/*-----------------------------------------------------------------------------------------------*/
+#sec6{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(40vmax,1fr));
+    margin: 4.4vmax 0px;
+    background-color: rgb(52, 28, 126);
+}
+#sec6d1{
+    color: rgb(139, 168, 191);
+    text-align: center;
+    margin: 2.5vmax 0px;  
+}
+#sec6d1>#sec6d11{
+    font-size: 2.4vmax;
+    font-weight: bold;
+    margin: .3vmax 0px;
+}
+#sec6d1>#sec6d12{
+    font-size: 2.4vmax;
+    font-weight: bold;
+    margin: .3vmax 0px;
+}
+#sec6d1>#sec6d13{
+    font-size: 1.5vmax;
+    margin: .8vmax 0px;
+}
+#sec6d1>#sec6d14{
+    font-size: 1.7vmax;
+    font-weight: bold;
+    margin: .8vmax 0px;
+}
+#sec6d1>#sec6d15{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(20vmax,1fr));
+    font-size: 1.5vmax;
+    margin: .8vmax 0px;
+}
+#sec6d1>#sec6d15>div{
+    margin: .7vmax .8vmax;
+}
+#sec6d2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax 0px;
+}
+#sec6d2>img{
+    max-width: 40vmax;
+}
+#sec6d1>button{
+    width: 16vmax;
+    height: 3.5vmax;
+    margin: 1vmax 0px;
+    border: 2.5px solid rgb(139, 168, 191);
+    font-size: medium;
+    color: rgb(139, 168, 191);
+    background-color: rgb(52, 28, 126);
+    transition: all .5s;
+    font-weight: bold;
+    margin: .5vmax 0px;
+    transition: all 0.5s;
+}
+#sec6d1>button:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 17.5vmax;
+}
+
+

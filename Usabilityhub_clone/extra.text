@@ -1,0 +1,6 @@
+display: flex;
+    max-width: 100vmax;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
